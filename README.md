@@ -1,6 +1,6 @@
 # Atliq Business Insight 360-Dashboard
 
-### Dashboard Link : https://shorturl.at/alsyB
+### [Dashboard Link](https://shorturl.at/alsyB)
 
 This dashboard helps Atliq Hardware get holistic business insights: finance analysis with P&L insights, sales analytics featuring customer and product metrics, marketing view encompassing net sales to net profit, supply chain metrics with accuracy trends, and an executive view providing regional, market share, and top customer/product insights. Invaluable for strategic decision-making.
 
