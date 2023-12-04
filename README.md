@@ -64,6 +64,6 @@ Dashboard consists of a landing page which has links to all other views.
   - Info Page
   - Support Page
 
-You can find the full interactive dashboard here 
+You can find the full interactive dashboard [here](https://shorturl.at/alsyB).
 
 
