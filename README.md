@@ -1,5 +1,10 @@
 # Atliq Business Insight 360-Dashboard
 
+For the interactive dashboard [click here](https://shorturl.at/alsyB)<br>
+You can access the full report [here](https://shorturl.at/eAS48)<br>
+
+This dashboard helps Atliq Hardware get holistic business insights: finance analysis with P&L insights, sales analytics featuring customer and product metrics, marketing view encompassing net sales to net profit, supply chain metrics with accuracy trends, and an executive view providing regional, market share, and top customer/product insights. Invaluable for strategic decision-making.
+
 I successfully wrapped up this project within the [Codebasics Data Analyst 2.0 Bootcamp](https://codebasics.io/bootcamps/data-analytics-bootcamp-with-practical-job-assistance) Power BI Course. Check out the details and the skills honed during this journey:
 
 ### Tech Portfolio
@@ -11,12 +16,43 @@ I successfully wrapped up this project within the [Codebasics Data Analyst 2.0 B
 - Project Charter File
 
 ### Power BI techniques:
-   - 
+- 🔗 **Load & Connect:** Access data from diverse sources (MySQL, Excel, Azure Folder).
+- **𝄜 Table Operations:** Create new tables, add calculated columns, merge, and append tables in Power Query.
+- 🛠️ **Data Modeling:** Implement Star & Snowflake schema techniques.
+- 📈 **DAX Utilization:** Leverage DAX for calculated columns, measures, and table creation.
+- 🗃️ **Static Table:** Develop a static table for specific data representation.
+- 📊 **Visual Storytelling:** Utilize various Power BI visuals to convey data insights effectively.
+- 🎨 **Conditional Formatting:** Enhance visual appeal with conditional formatting.
+- 🔖 **Bookmarks:** Organize multiple visuals in a single slot for seamless presentation.
+- 🚀 **Power BI Services:** Publish reports, create apps, generate live Excel reports, and embed dashboards on the web.
+- 🔄 **Data Refresh:** Set up automatic data refresh through a personal gateway.
+- ⚙️ **Optimization:** Enhance performance with DAX Studio & Performance Analyzer, for smooth data exploration & visualization experience.
 
+### Github Tweaks (outside scope of bootcamp)
+- Using Git lfs to load large files into github repository.
+- Github Markdown coding.
 
-#### For the interactive dashboard [click here](https://shorturl.at/alsyB)
+### Business Terminologies
+- **Gross Price:** The total price of a product or service before any deductions or expenses.
+- **Pre-Invoice Deductions:** Reductions applied to the total price before the invoice is issued, such as discounts or promotions.
+- **Post-Invoice Deductions:** Adjustments made to the invoice amount after it has been issued, including returns or additional discounts.
+- **Net Invoice Sale:** The final amount after deducting pre and post-invoice deductions from the gross price.
+- **Gross Margin:** The percentage difference between the gross price and the cost of goods sold (COGS), representing profitability.
+- **Net Sales:** The revenue generated after accounting for all deductions and adjustments.
+- **Net Profit:** The remaining profit after subtracting all expenses, including the COGS and other deductions, from the net sales.
+- **COGS (Cost of Goods Sold):** The total direct costs associated with producing goods or services sold during a specific period.
+- **Operational Expenses:** Day-to-day costs to run a business or organization.
+- **Net Error:** Measure of overall forecast accuracy, considering all data points.
+- **Absolute Error:** Magnitude of the difference between predicted and actual values.
+- **Forecast Accuracy:** Precision in predicting outcomes, crucial for data-driven decision-making.
+- **YTD (Year to Date):** Cumulative financial performance from the beginning of the current calendar year up to the present date.
+- **YTG (Year to Go):** Anticipated financial performance for the remainder of the current calendar year.
+- **Direct Channel:** Sales or transactions that occur directly between the producer or manufacturer and the end consumer.
+- **Retailer:** Businesses that sell products directly to consumers, often through physical or online stores.
+- **Distributors:** Intermediaries between manufacturers and retailers, distributing products to various points of sale.
+- **Consumer:** The end-user or individual who purchases and uses the product or service.
 
-This dashboard helps Atliq Hardware get holistic business insights: finance analysis with P&L insights, sales analytics featuring customer and product metrics, marketing view encompassing net sales to net profit, supply chain metrics with accuracy trends, and an executive view providing regional, market share, and top customer/product insights. Invaluable for strategic decision-making.
+#### Now lets delve into the intricacies of the dashboard creation process.
 
 ### Problem Statement
 
@@ -24,7 +60,7 @@ AtliQ Hardware, a global consumer electronics company, is experiencing rapid gro
 
 They initially shared 5 mockups for the various insights - Finance, Sales, Marketing, Supply Chain, Executive.
 
-**Tools Used:** Power BI, MySQL, MS Excel, DAX, DAX Studio, Project Charter.<br>
+**Tools Used:** Power BI, MySQL, MS Excel, DAX Studio, Project Charter.<br>
 **Skills used:** Data Modelling, Power Query, DAX, M-language.<br>
 **Dataset Used:**
 - dim_customer, dim_market, dim_product, fact_forecast_monthly, fact_sales_monthly, freight_cost, gross_price, manufacturing_cost, post_invoice_deductions, pre_invoice_deductions. (loaded from MySql)
@@ -34,12 +70,12 @@ They initially shared 5 mockups for the various insights - Finance, Sales, Marke
 
 ***Step 1:*** I began by employing SQL queries within MySQL Workbench for an initial dive into the data. Following a brief data exploration, here are my initial findings:
    - The database comprises a total of 13 tables from various sources: 10 of the tables come from MySQL database and 3 tables from external sources provided as .xlsx file. 
-   - the database can classified into 2 major sets of data
+   - the database can be classified into 2 major sets of data
        - The fact tables containing the quantitative information related to sales transaction details, forecast details, gross price, manufacturing cost, freight cost and pre & post invoice deductions.
        - The dimension tables containing details of customers, products & market. These encompass
-           - 27 markets divided within 7 subzones (ANZ, India, LATAM, NA, NE, ROA, SE) and 4 regions (APAC, EU, LATAM, NA)
-           - 73 products within 14 categories divided within 3 major divisions (N & S, P & A, PC) further subdivided into 6 segements (Accessories, Desktop, Networking, Notebook, Peripherals, Storage).
-           - Atliq has 74 unique customers accross the globe.<br>
+           - 27 markets across 7 subzones (ANZ, India, LATAM, NA, NE, ROA, SE) and 4 regions (APAC, EU, LATAM, NA).
+           - The product lineup includes 73 offerings within 14 categories, organized into 3 major divisions (N & S, P & A, PC) and 6 segments (Accessories, Desktop, Networking, Notebook, Peripherals, Storage).
+           - Globally, Atliq serves 74 unique customers.<br>
    - The complete observation period considering both sales transaction and sales forecast data spans from September 2017 to August 2022.
    - Fiscal Year observed by Atliq is from September to August.
    - The transaction data is denominated in USD.
@@ -82,6 +118,5 @@ Some common pointers about the insight views:
    - I have added filter criteria where data can be easily filtered by market, region, customers, products, segments, categories, fiscal years, fiscal quarters, YTD(Year-To-Date)/YTG(Year-To-Go).
    - The sales, finance & executive view also include a dedicated filter each, enabling a more granular drill-down into the data for comparisons with the previous year or target metrics.
 
-You can access the full report [here](https://shorturl.at/eAS48).
 
 
