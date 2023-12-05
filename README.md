@@ -58,13 +58,21 @@ Following a brief data exploration, here are my initial findings:
 This dashboard serves as a central hub with links to specialized views focusing on different aspects of the business, such as finance, sales, marketing, supply chain, and executive-level insights. Additionally, there are information and support pages to enhance user experience and understanding. The various views comprise of
 
   - Home - This is the main interface providing an overview of various insights and links to other specific views.
+    ![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/adb792f6-918a-4e23-8286-a5e4d8127fe9)
   - Financial Insight - A dedicated view focusing on financial data and analysis, offering insights into the company's monetary performance.
+    ![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/b05c2474-c8e7-430d-b2a1-383545ec5142)
   - Sales Insight - This view emphasizes customer performance metrics, including net sales, gross margin, and percentage metrics for decision-making.
+    ![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/ffa47a6c-d8d0-47ee-aedb-8cfd26508950)
   - Marketing Insight - Here the focus is on product performance metrics showcasing net sales, gross margin, gross margin %, net profit, net profit % for informed decision-making.
+    ![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/f96a981c-360a-41cb-a691-bf14f79db547)    
   - Supply Chain Insight - This view puts the spotlight on supply chain metrics by customer and product. Offers insights on year-over-year and target performance, accuracy trends, and key KPIs.
+    ![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/8abd7f07-20fa-4650-b83c-7d59625f9432)
   - Executive Insight - This view offers regional insights with YoY and target comparisons, market share trends, yearly metric trends, top 5 customer/product details, and vital KPIs for strategic planning.
+    ![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/467b1c9c-8a4d-4b8a-977f-805a3d413f3c)
   - Info Page - A supplementary page providing general information, guidelines, or additional context about the dashboard and its components.
+    ![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/3abe16b0-9c9d-4e79-b814-c8b9a713e257)
   - Support Page - A dedicated support section, offering resources or information to assist users in navigating and understanding the dashboard.
+    ![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/5caeca5e-ff99-4529-a72a-af6fd50fbaef)
 
 You can find the full report [here](https://shorturl.at/eAS48).
 
