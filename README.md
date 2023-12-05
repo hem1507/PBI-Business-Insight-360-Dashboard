@@ -55,14 +55,16 @@ Following a brief data exploration, here are my initial findings:
  
 ### The Dashboard Explained
 
-Dashboard consists of a landing page which has links to all other views.
-  - Financial Insight
-  - Sales Insight
-  - Marketing Insight
-  - Supply Chain Insight
-  - Executive Insight
-  - Info Page
-  - Support Page
+This dashboard serves as a central hub with links to specialized views focusing on different aspects of the business, such as finance, sales, marketing, supply chain, and executive-level insights. Additionally, there are information and support pages to enhance user experience and understanding. The various views comprise of
+
+  - Home - This is the main interface providing an overview of various insights and links to other specific views.
+  - Financial Insight - A dedicated view focusing on financial data and analysis, offering insights into the company's monetary performance.
+  - Sales Insight - This view emphasizes customer performance metrics, including net sales, gross margin, and percentage metrics for decision-making.
+  - Marketing Insight - Here the focus is on product performance metrics showcasing net sales, gross margin, gross margin %, net profit, net profit % for informed decision-making.
+  - Supply Chain Insight - This view puts the spotlight on supply chain metrics by customer and product. Offers insights on year-over-year and target performance, accuracy trends, and key KPIs.
+  - Executive Insight - This view offers regional insights with YoY and target comparisons, market share trends, yearly metric trends, top 5 customer/product details, and vital KPIs for strategic planning.
+  - Info Page - A supplementary page providing general information, guidelines, or additional context about the dashboard and its components.
+  - Support Page - A dedicated support section, offering resources or information to assist users in navigating and understanding the dashboard.
 
 You can find the full interactive dashboard [here](https://shorturl.at/alsyB).
 
