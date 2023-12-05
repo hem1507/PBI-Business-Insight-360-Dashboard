@@ -66,6 +66,6 @@ This dashboard serves as a central hub with links to specialized views focusing 
   - Info Page - A supplementary page providing general information, guidelines, or additional context about the dashboard and its components.
   - Support Page - A dedicated support section, offering resources or information to assist users in navigating and understanding the dashboard.
 
-You can find the full interactive dashboard [here](https://shorturl.at/alsyB).
+You can find the full report [here](https://shorturl.at/eAS48).
 
 
