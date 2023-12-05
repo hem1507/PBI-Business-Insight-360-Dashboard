@@ -1,8 +1,20 @@
 # Atliq Business Insight 360-Dashboard
 
-I successfully wrapped up this project within the [Codebasics Data Analyst 2.0 Bootcamp](https://codebasics.io/bootcamps/data-analytics-bootcamp-with-practical-job-assistance) Power BI Course. 
+I successfully wrapped up this project within the [Codebasics Data Analyst 2.0 Bootcamp](https://codebasics.io/bootcamps/data-analytics-bootcamp-with-practical-job-assistance) Power BI Course. Check out the details and the skills honed during this journey:
 
-### For the interactive dashboard [click here](https://shorturl.at/alsyB)
+### Tech Portfolio
+- Power BI Desktop & Power BI Service
+- MySQL
+- DAX
+- M-Language
+- DAX Studio (for dashboard optimization)
+- Project Charter File
+
+### Power BI techniques:
+   - 
+
+
+#### For the interactive dashboard [click here](https://shorturl.at/alsyB)
 
 This dashboard helps Atliq Hardware get holistic business insights: finance analysis with P&L insights, sales analytics featuring customer and product metrics, marketing view encompassing net sales to net profit, supply chain metrics with accuracy trends, and an executive view providing regional, market share, and top customer/product insights. Invaluable for strategic decision-making.
 
