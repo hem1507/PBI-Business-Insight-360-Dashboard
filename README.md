@@ -28,7 +28,7 @@ I successfully wrapped up this project within the [Codebasics Data Analyst 2.0 B
 - 🔄 **Data Refresh:** Set up automatic data refresh through a personal gateway.
 - ⚙️ **Optimization:** Enhance performance with DAX Studio & Performance Analyzer, for smooth data exploration & visualization experience.
 
-### Github Tweaks (outside scope of bootcamp)
+### Github Tweaks (self learning)
 - Using Git lfs to load large files into github repository.
 - Github Markdown coding.
 
