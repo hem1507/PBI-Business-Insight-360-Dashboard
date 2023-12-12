@@ -1,7 +1,7 @@
 # Atliq Business Insight 360-Dashboard
 
-For the interactive dashboard [click here](https://shorturl.at/alsyB)<br>
-You can access the full report [here](https://shorturl.at/eAS48)<br>
+For the interactive dashboard [click here](https://app.powerbi.com/view?r=eyJrIjoiMDllNGMzMGYtMTBkNy00ZTA0LTlhOGItY2M5ZWQzMWYyYzBlIiwidCI6IjNiNzE1MDMxLTJiY2QtNGUxOC04MTI5LTYzZThhNzFmZGFhMyJ9)<br>
+You can access the full report [here](https://pp150786.sharepoint.com/sites/MySol/Shared%20Documents/Business%20Insight%20360%20Files/pbix%20file/BusinessInsight-360-V2.pbix)<br>
 
 This dashboard helps Atliq Hardware get holistic business insights: finance analysis with P&L insights, sales analytics featuring customer and product metrics, marketing view encompassing net sales to net profit, supply chain metrics with accuracy trends, and an executive view providing regional, market share, and top customer/product insights. Invaluable for strategic decision-making.
 
@@ -103,13 +103,13 @@ They initially shared 5 mockups for the various insights - Finance, Sales, Marke
 This dashboard will serve as a central hub with links to specialized views focusing on different aspects of the business, such as finance, sales, marketing, supply chain, and executive-level insights. Additionally, there are information and support pages to enhance user experience and understanding. Let's now explore the intricacies of the dashboard:
 
 - 🏡 Home - This is the main interface offering a comprehensive snapshot of diverse insights and direct links to specific views. It also includes details about the currency denomination used in the data, the date of the latest transactional data, and the timestamp indicating when the report was last refreshed.<br><br>![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/adb792f6-918a-4e23-8286-a5e4d8127fe9)<br><br>
-- 📊 Financial Insight - A dedicated view focusing on financial data and analysis, offering insights into the company's monetary performance.<br><br> ![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/b05c2474-c8e7-430d-b2a1-383545ec5142)<br><br>
-- 📈 Sales Insight - This view emphasizes customer performance metrics, including net sales, gross margin, and percentage metrics for decision-making.<br><br>![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/ffa47a6c-d8d0-47ee-aedb-8cfd26508950)<br><br>
-- 🎯 Marketing Insight - Here the focus is on product performance metrics showcasing net sales, gross margin, gross margin %, net profit, net profit % for informed decision-making.![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/f96a981c-360a-41cb-a691-bf14f79db547)<br><br>
+- 📊 Financial Insight - A dedicated view focusing on financial data and analysis, offering insights into the company's monetary performance.<br><br> ![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/04476455-7c01-43eb-ac02-8684d85a542c)<br><br>
+- 📈 Sales Insight - This view emphasizes customer performance metrics, including net sales, gross margin, and percentage metrics for decision-making.<br><br>![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/57137fe8-f0c1-4a38-9163-4570e6630ef1)<br><br>
+- 🎯 Marketing Insight - Here the focus is on product performance metrics showcasing net sales, gross margin, gross margin %, net profit, net profit % for informed decision-making.<br><br>![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/406b4b79-3889-4172-9e64-679f6ffc14b3)<br><br>
 - 🔄 Supply Chain Insight - This view puts the spotlight on supply chain metrics by customer and product. Offers insights on year-over-year and target performance, accuracy trends, and key KPIs.<br><br>
-    ![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/8abd7f07-20fa-4650-b83c-7d59625f9432)<br><br>
+    ![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/3dc98f83-35f8-4c21-ac44-e53dae5dd0e2)<br><br>
 - 👔 Executive Insight - This view offers regional insights with YoY and target comparisons, market share trends, yearly metric trends, top 5 customer/product details, and vital KPIs for strategic planning.<br><br>
-    ![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/467b1c9c-8a4d-4b8a-977f-805a3d413f3c)<br><br>
+    ![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/8c399dba-5cf6-4fb2-8d6a-cac70729c8be)<br><br>
 - ℹ️ Info Page - A supplementary page providing general information, guidelines, or additional context about the dashboard and its components.<br><br>
     ![image](https://github.com/hem1507/PBI-Business-Insight-360-Dashboard/assets/147921071/3abe16b0-9c9d-4e79-b814-c8b9a713e257)<br><br>
 - 💡 Support Page - A dedicated support section, offering resources or information to assist users in navigating and understanding the dashboard. There is also a link to a feedback form where suggestions can be made for improving the dashboard.<br><br>
